@@ -61,6 +61,7 @@ body{
 	font-size: 16px;
 }
 
+
 /*--Homepage--*/
 .grid {
     width: 100%;
@@ -203,6 +204,40 @@ body{
 }
 
 
+@media(prefers-color-scheme: dark){
+    .nav-header a {
+        color:rgb(162, 167, 171);
+        font-weight: 600;
+    }
+    .nav-header a:hover {
+        color: rgb(210, 220, 222);
+    }
+    body {
+        background-color: #191a1c;
+    }
+    .grid-item-text {
+        background: rgb(48, 52, 55);
+    }
+    .grid-item h2 {
+        color: rgb(210, 220, 222);
+    }
+    .grid-item h3 {
+        color:rgb(162, 167, 171);
+    }
+    .article-content {
+        background: rgb(37, 38, 41);
+        box-shadow: 0px 0px 13px 0px rgba(11, 12, 12, 0.15);
+    }
+    .article-content .title {
+        color: #fff;
+    }
+    .article-content h1, h2, h3, h4 {
+        color: #fff;
+    }
+    .article-content {
+        color:rgb(189, 195, 201);
+    }
+}
 @media(max-width: 1220px) {
     .wrapper {
         max-width: 90%;

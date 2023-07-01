@@ -8,6 +8,33 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Jun 2023 12:35:40 +0200</lastBuildDate><atom:link href="https://purpurax.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Others</title>
+      <link>https://purpurax.de/others/</link>
+      <pubDate>Sat, 01 Jul 2023 14:50:22 +0200</pubDate>
+      
+      <guid>https://purpurax.de/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototypes</title>
+      <link>https://purpurax.de/prototypes/</link>
+      <pubDate>Sat, 01 Jul 2023 14:48:38 +0200</pubDate>
+      
+      <guid>https://purpurax.de/prototypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Releases</title>
+      <link>https://purpurax.de/releases/</link>
+      <pubDate>Sat, 01 Jul 2023 14:45:25 +0200</pubDate>
+      
+      <guid>https://purpurax.de/releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Profile</title>
       <link>https://purpurax.de/profile/</link>
       <pubDate>Sat, 01 Jul 2023 12:58:43 +0200</pubDate>
