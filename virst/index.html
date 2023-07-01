@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <title></title>
+
+    
+    
+        <link rel="icon" type="image/x-icon" href="../images/logo_cat_default.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+    <body>
+        <header>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html" alt="Logo">
+                
+                    <img src="../images/logo_cat_default.png" alt="Logo">
+                
+            </a>
+            <nav class="nav-header">
+                <ul class="nav-header-items">
+                    <li class="nav-header-item"><a href = "../index.html">Release</a></li>
+                    <li class="nav-header-item"><a href = "../index.html">Prototype</a></li>
+                    <li class="nav-header-item"><a href = "../index.html">Other</a></li>
+                    <li class="nav-header-item"><a href = "../profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="wrapper">
+        
+
+
+<div class="article">
+    <div class="article-content">
+        <p href="#" class="title">Virst</p>
+        <p><img src="../images/Virst_1.png" alt="Vrist Preview"></p>
+<p>This is a 2 in 1 python script for insta-locking agents in Valorant or having an automated option for the pick/banning-phase in League of Legends.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p><strong>Before:</strong> It check if Valorant or League of Legends is open, then start the according function in the script.</p>
+<h3 id="valorant">Valorant</h3>
+<p>The script is able to detect if the agent-pick-phase is active and can then click on the preselected agent.</p>
+<p>It recognize the pick-phase, by checking the color of one pixel (in the top-left corner of the screen). The coordinates of every Agent are predefined manually and have to be changed after unlocking an agent or a new agent comes to the game. <em>note: this can of course be automated too, if you put in a little more effort than me.</em> Simple right?</p>
+<p><img src="../images/Virst_2.png" alt="Valorant Preview"></p>
+<h3 id="league-of-legends">League of Legends</h3>
+<p>For this game the script has to do more, because there are many steps involved to get through the selecting then banning then picking phase.</p>
+<ol>
+<li>
+<p>The bot searches for the picture of the accept button and clicks it. This step is constantly repeating, because you never know if someone dodges.</p>
+</li>
+<li>
+<p>Now the selecting phase starts and the bot goes to the search bar and writes whatever champion you have selected, if you get the role you picked; if not, the bot will take a predefined champion for your new role.</p>
+</li>
+<li>
+<p>After the selecting phase is over, the banning phase will begin. With it the bot will ban a predefined champion (again through the search bar).</p>
+</li>
+<li>
+<p>This is an in between step and will only start, if the champion you want to ban is already banned or chosen by your team mate. In this step it will just repeat step 3 and ban another predefined champion.</p>
+</li>
+<li>
+<p>It would now select some good standard runes and summoner spells, but with a new update the rune system was improved. So this step is not necessary anymore, but is still in the bot.</p>
+</li>
+</ol>
+<h3 id="optional">Optional</h3>
+<p>Now on top I also combined the digital functionality with an analog rotary knob through Arduino. If you click this knob, a menu will appear. Now I can rotate the knob to 1. select my role 2. select the champion in the role.</p>
+<p><img src="../images/Virst_3.png" alt="Virst knob preview 1"></p>
+<p><img src="../images/Virst_4.png" alt="Virst knob preview 2"></p>
+<h2 id="why-did-i-create-virst">Why did I create Virst?</h2>
+<p>Do you know the feeling, that you are waiting ages in a pick-screen and you want to do something else meanwhile, like eating or going to the bathroom? Virst is the solution. I&rsquo;m someone who wants to be as efficient as possible in anything and knows how to use Arduino and Python. So it wasn&rsquo;t hard creating this simple script. In addition to that, I already made a script similar to this (<a href="https://github.com/Purpurax/E-school">school-automation</a>).</p>
+<h2 id="how-useful-is-it-actually">How useful is it actually?</h2>
+<p>In Valorant it is saving about 1-3 minutes and gives me almost always the desired agent I want to play. Almost, because someone could also have a picking bot and faster loading times. The time I save in League of Legends ranges from 4-15 minutes, what is huge. The picking- and banning-phase in League of Legends is, in my opinion, way too long. I won&rsquo;t always get the champion I want, but my script is smart enough to adapt and pick something else.</p>
+<h2 id="can-anyone-create-vrist-themselves">Can anyone create &ldquo;Vrist&rdquo; themselves?</h2>
+<p>Yes, programming seems to be very hard, but this is one of the perfect starting projects you can do with no real programming experience. In school you might learn some theoretical stuff, but here you make something useful and learn the same stuff on the go. I personally added more stuff, like the Arduino controls, than needed, because I&rsquo;m not new to programming and wanted to train some electronics.</p>
+<h1 id="download">Download</h1>
+<p>If you like the artwork and want to use it for yourself, feel free to just <a href="../about-me.html">contact me</a> anytime.</p>
+<p><strong>ATTENTION!!!:</strong> This is the source-code and is adapted to <strong>MY</strong> PC. For personal use, you have to modify my code or use it as a guideline to create your own.</p>
+<a href="https://github.com/Purpurax/Virst">
+<div class="article-content-badge"><img src="../images/badge_github.png" type="png"></div>
+</a>
+<p>© Made by Purpurax</p>
+
+    </div>
+</div>
+
+
+        </div>
+        <footer>
+    <div class="wrapper wrapper-footer">
+        <nav class="nav-footer">
+            <p>&copy <script>document.write(new Date().getFullYear())</script> Purpurax</p>
+        </nav>
+    </div>
+</footer>
+    </body>
+    
+</html>
