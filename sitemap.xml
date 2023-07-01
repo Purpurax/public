@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://purpurax.de/</loc>
     <lastmod>2023-06-30T12:35:40+02:00</lastmod>
   </url><url>
-    <loc>/tags/release/</loc>
+    <loc>https://purpurax.de/tags/release/</loc>
     <lastmod>2023-06-30T12:35:40+02:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://purpurax.de/tags/</loc>
     <lastmod>2023-06-30T12:35:40+02:00</lastmod>
   </url><url>
-    <loc>/virst/</loc>
+    <loc>https://purpurax.de/virst/</loc>
     <lastmod>2023-06-30T12:35:40+02:00</lastmod>
   </url><url>
-    <loc>/cubetimer/</loc>
+    <loc>https://purpurax.de/cubetimer/</loc>
     <lastmod>2023-06-29T22:55:46+02:00</lastmod>
   </url><url>
-    <loc>/hexagonspin/</loc>
+    <loc>https://purpurax.de/hexagonspin/</loc>
     <lastmod>2023-06-29T22:33:30+02:00</lastmod>
   </url><url>
-    <loc>/solitaire/</loc>
+    <loc>https://purpurax.de/solitaire/</loc>
     <lastmod>2023-06-29T22:33:30+02:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://purpurax.de/categories/</loc>
   </url>
 </urlset>

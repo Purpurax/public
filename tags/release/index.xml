@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on Purpurax</title>
-    <link>/tags/release/</link>
+    <link>https://purpurax.de/tags/release/</link>
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 12:35:40 +0200</lastBuildDate><atom:link href="/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 12:35:40 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Virst</title>
-      <link>/virst/</link>
+      <link>https://purpurax.de/virst/</link>
       <pubDate>Fri, 30 Jun 2023 12:35:40 +0200</pubDate>
       
-      <guid>/virst/</guid>
+      <guid>https://purpurax.de/virst/</guid>
       <description>This is a 2 in 1 python script for insta-locking agents in Valorant or having an automated option for the pick/banning-phase in League of Legends.
 How does it work? Before: It check if Valorant or League of Legends is open, then start the according function in the script.
 Valorant The script is able to detect if the agent-pick-phase is active and can then click on the preselected agent.
@@ -21,29 +21,29 @@ It recognize the pick-phase, by checking the color of one pixel (in the top-left
     
     <item>
       <title>CubeTimer</title>
-      <link>/cubetimer/</link>
+      <link>https://purpurax.de/cubetimer/</link>
       <pubDate>Thu, 29 Jun 2023 22:55:46 +0200</pubDate>
       
-      <guid>/cubetimer/</guid>
+      <guid>https://purpurax.de/cubetimer/</guid>
       <description>Description This is a Cube timer for all those hard-working cubers that want to improve their times on any Cube. It tracks and saves your times up to 13 cubes. If you are training for competitions, then these features might be helpful:
 Inspection time: It is a small countdown of x seconds, what limits the time you inspect the cube. Music: There are more than 10 music tracks you can listen to while cubing.</description>
     </item>
     
     <item>
       <title>HexagonSpin</title>
-      <link>/hexagonspin/</link>
+      <link>https://purpurax.de/hexagonspin/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
       
-      <guid>/hexagonspin/</guid>
+      <guid>https://purpurax.de/hexagonspin/</guid>
       <description>Description Hexagon Spin tests your reflexes and more. Your goal is to top your high score and buy all the shop items. The game is too slow and easy? Then try the new difficulties and if you are up for a challenge, then color madness is for you. In easy mode, the puzzles come slow and vertically, so you have plenty of time to spin your hexagon to the right position.</description>
     </item>
     
     <item>
       <title>Solitaire</title>
-      <link>/solitaire/</link>
+      <link>https://purpurax.de/solitaire/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
       
-      <guid>/solitaire/</guid>
+      <guid>https://purpurax.de/solitaire/</guid>
       <description>my motive Solitaire is my first game made with Godot Engine and I quickly fell in love with it&amp;rsquo;s workspace. The scene editor is especially good for 2D projects and comes close to the look of Unity&amp;rsquo;s scene editor, which made it easy for me to get used to. The incredible feature of Godot is the built-in code editor with it&amp;rsquo;s own language - gdscript. This programming language is very easy to understand and to write since the documentation is well made.</description>
     </item>
     
