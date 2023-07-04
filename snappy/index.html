@@ -41,9 +41,29 @@
 <div class="article">
     <div class="article-content">
         <p href="#" class="title">Snappy</p>
-        <h1 id="description">Description</h1>
+        <p><img src="../images/Snappy_1.jpg" alt="Snappy Preview"></p>
+<h1 id="description">Description</h1>
 <h2 id="what-is-snappy">What is Snappy?</h2>
-<p>Snappy is</p>
+<p>Snappy was created during the Covid pandemic to make wearing a mask a more elegant solution.</p>
+<p>The normal approach in the pandemic was to take a mask everywhere you go and anytime someone comes close or you enter a building, you had to pop on your mask. This has two major problems: you could forget your mask at home and you need <strong>two free hands</strong> to place it over your nose. I fixed those problems by combining some motors and sensors with a mask and putting them on some glasses.</p>
+<p>&ldquo;Snappy&rdquo;, how I call this prototype, can measure the distance of the nearest object you are facing and if someone comes closer than 1.5m, two motors will be triggered and the mask, under your chin, will move over your nose. Sometimes you might walk around a mall, where you need to keep your mask on, even if nothing is near you. In that case you simply hold a button and it will disable the motors, giving you the opportunity to manually move the mask wherever you like.</p>
+<h2 id="what-are-the-components-of-snappy">What are the components of Snappy?</h2>
+<h3 id="distance-sensor">Distance sensor</h3>
+<p>I used an ultrasonic distance sensor, because it&rsquo;s cheap and I have several of them.</p>
+<p>The negative side of using this sensor is, that it&rsquo;s big and it has problems with sound absorbing walls.</p>
+<h3 id="motors">Motors</h3>
+<p>I used very standard cheap plastic 90g servos.</p>
+<h3 id="chip">Chip</h3>
+<p>While a custom pcb would be a lot smaller, I used an Arduino Nano.</p>
+<p>Before I create a pcb tho, I first have to find out which settings (motor speed, motor range, cooldowns &hellip;) are the best for daily use.</p>
+<h3 id="battery">Battery</h3>
+<p>Nothing special, just a small lithium ion battery, that I had left over.</p>
+<h1 id="planned">Planned</h1>
+<p>I want to slowly reduce the size of all the parts.</p>
+<p>The ultrasonic distance sensor will be changed to a lidar senor. This will reduce the size and the distance sensor will work with lasers instead of sounds like all modern distance sensors.</p>
+<p>The servo motors will be broken down to the smallest parts and will be realigned to properly hide all those parts in dedicated 3d printed cases.</p>
+<p>At the absolute last, I will do the custom pcb chip.</p>
+<p>I&rsquo;ll also find a proper battery, that fits better.</p>
 
     </div>
 </div>
