@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototype on Purpurax</title>
+    <link>https://purpurax.de/tags/prototype/</link>
+    <description>Recent content in Prototype on Purpurax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jul 2023 13:59:50 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snappy</title>
+      <link>https://purpurax.de/snappy/</link>
+      <pubDate>Tue, 04 Jul 2023 13:59:50 +0200</pubDate>
+      
+      <guid>https://purpurax.de/snappy/</guid>
+      <description>Description What is Snappy? Snappy is</description>
+    </item>
+    
+  </channel>
+</rss>
