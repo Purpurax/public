@@ -6,7 +6,17 @@
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2023 15:06:11 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 17:15:10 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mühle-Agent</title>
+      <link>https://purpurax.de/m%C3%BChleagent/</link>
+      <pubDate>Sun, 28 Apr 2024 17:15:10 +0200</pubDate>
+      
+      <guid>https://purpurax.de/m%C3%BChleagent/</guid>
+      <description>Description What is &amp;ldquo;Mühle&amp;rdquo;? &amp;ldquo;Mühle&amp;rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.
+Setup phase: The players take turns placing down nine of their pieces on any free crossing or corner. Move phase: Pieces can be moved over the marked lines, if the next crossing or corner isn&amp;rsquo;t already occupied.</description>
+    </item>
+    
     <item>
       <title>Jinx-Blaster</title>
       <link>https://purpurax.de/jinxblaster/</link>
