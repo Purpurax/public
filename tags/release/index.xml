@@ -6,7 +6,17 @@
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 17:15:10 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Aug 2024 17:20:34 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decay</title>
+      <link>https://purpurax.de/atrophydeparture/</link>
+      <pubDate>Mon, 12 Aug 2024 17:20:34 +0200</pubDate>
+      
+      <guid>https://purpurax.de/atrophydeparture/</guid>
+      <description>Motivation The project itself was made in regard to a 48-hour game jam hosted on itch.io. In a game jam your goal is to create a game within a given time frame with specified requirements and rules. Our team was just a duo, me and @Arubaato, and the rules were very open and only specified the theme being decay.
+After some brainstorming, we have decided to create a 2D pixel art platformer in the Godot open source game engine.</description>
+    </item>
+    
     <item>
       <title>Mühle-Agent</title>
       <link>https://purpurax.de/m%C3%BChleagent/</link>
