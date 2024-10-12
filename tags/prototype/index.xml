@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prototype on Purpurax</title>
-    <link>http://localhost:1313/tags/prototype/</link>
+    <link>https://purpurax.de/tags/prototype/</link>
     <description>Recent content in Prototype on Purpurax</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Sep 2023 20:55:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://purpurax.de/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smoothie</title>
-      <link>http://localhost:1313/smoothie/</link>
+      <link>https://purpurax.de/smoothie/</link>
       <pubDate>Sun, 03 Sep 2023 20:55:31 +0200</pubDate>
-      <guid>http://localhost:1313/smoothie/</guid>
+      <guid>https://purpurax.de/smoothie/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Smoothie_1.png&#34; alt=&#34;Smoothie creation Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is my experience trying to create smoothies myself instead of browsing recipies on the internet.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-did-i-try-to-create-new-smoothies-fully-from-scratch&#34;&gt;Why did I try to create new smoothies fully from scratch?&lt;/h2&gt;&#xA;&lt;p&gt;Everyone&amp;rsquo;s taste is different, therefore not all smoothies can be seen as tasty by everyone. There is no perfect combination of healthy fruits, that everyone will like, but this is not my goal. My goal is to create smoothies that I like, find tasty and can drink every day. How hard is it to actually create smoothies that are &lt;strong&gt;healthy, easy to make and cheap&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Snappy</title>
-      <link>http://localhost:1313/snappy/</link>
+      <link>https://purpurax.de/snappy/</link>
       <pubDate>Tue, 04 Jul 2023 13:59:50 +0200</pubDate>
-      <guid>http://localhost:1313/snappy/</guid>
+      <guid>https://purpurax.de/snappy/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Snappy_1.jpg&#34; alt=&#34;Snappy Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-snappy&#34;&gt;What is Snappy?&lt;/h2&gt;&#xA;&lt;p&gt;Snappy was created during the Covid pandemic to make wearing a mask a more elegant solution.&lt;/p&gt;&#xA;&lt;p&gt;The normal approach in the pandemic was to take a mask everywhere you go and anytime someone comes close or you enter a building, you had to pop on your mask. This has two major problems: you could forget your mask at home and you need &lt;strong&gt;two free hands&lt;/strong&gt; to place it over your nose. I fixed those problems by combining some motors and sensors with a mask and putting them on some glasses.&lt;/p&gt;</description>
     </item>
   </channel>
