@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <title>Purpurax</title>
+
+    
+    
+        <link rel="icon" type="image/x-icon" href="../images/logo_cat_default.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+    <body>
+        <header>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html" alt="Logo">
+                
+                    <img src="../images/logo_cat_default.png" alt="Logo">
+                
+            </a>
+            <nav class="nav-header">
+                <ul class="nav-header-items">
+                    <li class="nav-header-item"><a href = "../releases">Release</a></li>
+                    <li class="nav-header-item"><a href = "../prototypes">Prototype</a></li>
+                    <li class="nav-header-item"><a href = "../others">Other</a></li>
+                    <li class="nav-header-item"><a href = "../profile/">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="wrapper">
+        
+
+<div class="article">
+    <div class="article-content">
+        <p href="#" class="title">Mühle-AI</p>
+        <p><img src="../images/M%C3%BChle-AI_1.png" alt="Mühle Agent Preview"></p>
+<h1 id="mühle-explained">Mühle explained</h1>
+<p>&ldquo;Mühle&rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.</p>
+<h3 id="setup-phase">Setup phase</h3>
+<p>The players take turns placing down nine of their pieces on any free crossing or corner.</p>
+<h3 id="move-phase">Move phase</h3>
+<p>Pieces can be moved over the marked lines, if the next crossing or corner isn&rsquo;t already occupied. Whenever three pieces are in line horizontally or vertically, a <strong>mill</strong> has been created. Now that player can remove one piece of the opponent.</p>
+<h3 id="end-phase">End phase</h3>
+<p>If a player has only three pieces left, they are not restricted to moving only in single steps on the board, but can instead jump around to any free spot.</p>
+<h3 id="win-phase">Win phase</h3>
+<p>The player loses, if they have just 2 pieces left, or they cannot make any move.</p>
+<p><em>extra: When creating two mills at the same time, only one piece can be taken. A piece normally cannot be taken out of an existing mill, but if all pieces are part of mills, this rule does not apply anymore.</em></p>
+<h1 id="description">Description</h1>
+<p>You can play against someone else locally, against my AI in 3-difficulties and even watch how two AI&rsquo;s play against each another. Good luck!</p>
+<h1 id="ai-explained">AI explained</h1>
+<p>The AI is using a minimax algorithm with alpha-beta-pruning and a simple evaluation function to determine the best next move.</p>
+<h2 id="minimax">Minimax</h2>
+<p>The algorithm simply tries to maximize the score for itself and minimize it for the opponent. By introducing depth, the algorithm can try a couple of moves and only then evaluate the out coming score, to come to a better result. The easy difficulty restricts this algorithm to the basic form without any depth; the medium difficulty has a maximum depth of 6, and the hard difficulty only has a time restriction of exactly one second and no depth restriction. On average, the depth of the hard-AI reaches between 9 and 12.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p>When comparing multiple possible moves, the algorithm has to tell if one move is better than another. The evaluation function can do just that, giving a score to any board. A high positive score, indicates that white is in a better position and a high negative score does the same but for black. The function only considers the token counts and the possible moves.</p>
+<h2 id="data-structure">Data structure</h2>
+<p>The board with all its pieces is saved in one u64. A white piece is 0b11, black piece 0b10 and an empty piece 0b00. By having 24 positions, we can save the pieces in 48 bits total. Through easy bit manipulation, we can move and count pieces.
+Because we have 16 free bits and the slowest functions are counting all pieces and the total possible move count, we save the piece count and possible move count in those 16 bits. More on the data structure can be seen in <code>src/core/position.rs</code></p>
+<h1 id="download">Download</h1>
+<p>Use the browser version for simplicity. If you want to benchmark and test how deep the minimax algorithm goes, run it locally with cargo.</p>
+<a href="https://github.com/Purpurax/muehle_agent">
+<div class="article-content-badge"><img src="../images/badge_github.png" type="png"></div>
+</a>
+<a href="../games/Mühle AI/muehle_agent.html">
+<div class="article-content-badge"><img src="../images/badge_browser.png" type="png"></div>
+</a>
+
+    </div>
+</div>
+
+
+        </div>
+        <footer>
+    <div class="wrapper wrapper-footer">
+        <nav class="nav-footer">
+            <p>&copy <script>document.write(new Date().getFullYear())</script> Purpurax</p>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="../js/main.js"></script>
+
+    </body>
+</html>
