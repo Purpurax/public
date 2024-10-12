@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on Purpurax</title>
-    <link>https://purpurax.de/tags/release/</link>
+    <link>http://localhost:1313/tags/release/</link>
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Aug 2024 17:20:34 +0200</lastBuildDate>
-    <atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/release/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decay</title>
-      <link>https://purpurax.de/atrophydeparture/</link>
+      <link>http://localhost:1313/atrophydeparture/</link>
       <pubDate>Mon, 12 Aug 2024 17:20:34 +0200</pubDate>
-      <guid>https://purpurax.de/atrophydeparture/</guid>
+      <guid>http://localhost:1313/atrophydeparture/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Decay_1.png&#34; alt=&#34;Preview of the game&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;&#xA;&lt;p&gt;The project itself was made in regard to a 48-hour game jam hosted on itch.io. In a game jam your goal is to create a game within a given time frame with specified requirements and rules. Our team was just a duo, me and @Arubaato, and the rules were very open and only specified the theme being &lt;strong&gt;decay&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;After some brainstorming, we have decided to create a 2D pixel art platformer in the Godot open source game engine. For the resources, we have used royalty-free assets from itch.io and other websites, and modified them to our liking.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mühle-AI</title>
-      <link>https://purpurax.de/m%C3%BChleai/</link>
+      <link>http://localhost:1313/m%C3%BChleai/</link>
       <pubDate>Sun, 28 Apr 2024 17:15:10 +0200</pubDate>
-      <guid>https://purpurax.de/m%C3%BChleai/</guid>
+      <guid>http://localhost:1313/m%C3%BChleai/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/M%C3%BChle-AI_1.png&#34; alt=&#34;Mühle Agent Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;mühle-explained&#34;&gt;Mühle explained&lt;/h1&gt;&#xA;&lt;p&gt;&amp;ldquo;Mühle&amp;rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-phase&#34;&gt;Setup phase&lt;/h3&gt;&#xA;&lt;p&gt;The players take turns placing down nine of their pieces on any free crossing or corner.&lt;/p&gt;&#xA;&lt;h3 id=&#34;move-phase&#34;&gt;Move phase&lt;/h3&gt;&#xA;&lt;p&gt;Pieces can be moved over the marked lines, if the next crossing or corner isn&amp;rsquo;t already occupied. Whenever three pieces are in line horizontally or vertically, a &lt;strong&gt;mill&lt;/strong&gt; has been created. Now that player can remove one piece of the opponent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jinx-Blaster</title>
-      <link>https://purpurax.de/jinxblaster/</link>
+      <link>http://localhost:1313/jinxblaster/</link>
       <pubDate>Sat, 14 Oct 2023 15:06:11 +0200</pubDate>
-      <guid>https://purpurax.de/jinxblaster/</guid>
+      <guid>http://localhost:1313/jinxblaster/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Jinx-Blaster_1.jpg&#34; alt=&#34;Jinx Blaster Preview&#34;&gt;&#xA;This is my replica of the Jinx blaster from the series Arcane.&lt;/p&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-was-the-idea&#34;&gt;What was the idea?&lt;/h2&gt;&#xA;&lt;p&gt;Nowadays, on the internet you can find all sorts of things, including multiple different replicas of the Jinx Blasters. But none of those Jinx Blasters were able to shoot. So I decided to put my 3D printing skills to the test and create my own.&lt;/p&gt;&#xA;&lt;p&gt;You have multiple options for shooting mechanisms like gel balls, airsoft and so on; but the simplest and most commonly used mechanism is the one inside nerf guns. So I ordered some revolver-like nerf blasters (to be specific, the double Roblox nerf bundle).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Virst</title>
-      <link>https://purpurax.de/virst/</link>
+      <link>http://localhost:1313/virst/</link>
       <pubDate>Fri, 30 Jun 2023 12:35:40 +0200</pubDate>
-      <guid>https://purpurax.de/virst/</guid>
+      <guid>http://localhost:1313/virst/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Virst_1.png&#34; alt=&#34;Vrist Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a 2 in 1 python script for insta-locking agents in Valorant or having an automated option for the pick/banning-phase in League of Legends.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How does it work?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Before:&lt;/strong&gt; It check if Valorant or League of Legends is open, then start the according function in the script.&lt;/p&gt;&#xA;&lt;h3 id=&#34;valorant&#34;&gt;Valorant&lt;/h3&gt;&#xA;&lt;p&gt;The script is able to detect if the agent-pick-phase is active and can then click on the preselected agent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CubeTimer</title>
-      <link>https://purpurax.de/cubetimer/</link>
+      <link>http://localhost:1313/cubetimer/</link>
       <pubDate>Thu, 29 Jun 2023 22:55:46 +0200</pubDate>
-      <guid>https://purpurax.de/cubetimer/</guid>
+      <guid>http://localhost:1313/cubetimer/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/CubeTimer_1.png&#34; alt=&#34;CubeTimer Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;&#xA;&lt;p&gt;This is a Cube timer for all those hard-working cubers that want to improve their times on any Cube. It tracks and saves your times up to 13 cubes. If you are training for competitions, then these features might be helpful:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inspection time:&lt;/strong&gt; It is a small countdown of x seconds, what limits the time you inspect the cube.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Music:&lt;/strong&gt; There are more than 10 music tracks you can listen to while cubing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Alert:&lt;/strong&gt; While doing big cubes, you can setup a small Alert sound after x seconds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Random Scrambles:&lt;/strong&gt; A randomized scramble will be generated, if you are too lazy to think or just want new scrambles.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dark/Light theme:&lt;/strong&gt; Supports both dark and light mode.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/CubeTimer_2.png&#34; alt=&#34;CubeTimer Help Preview&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>HexagonSpin</title>
-      <link>https://purpurax.de/hexagonspin/</link>
+      <link>http://localhost:1313/hexagonspin/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
-      <guid>https://purpurax.de/hexagonspin/</guid>
+      <guid>http://localhost:1313/hexagonspin/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/HexagonSpin_1.png&#34; alt=&#34;HexagonSpin Preview&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;&#xA;&lt;p&gt;Hexagon Spin tests your reflexes and more. Your goal is to top your high score and buy all the shop items.&#xA;The game is too slow and easy? Then try the new difficulties and if you are up for a challenge, then color madness is for you.&#xA;In easy mode, the puzzles come slow and vertically, so you have plenty of time to spin your hexagon to the right position.&#xA;Medium mode is a much harder because the puzzles are not just faster, but they are also positioned horizontally.&#xA;The puzzles get super fast in hard mode, but at the end of the game you get double the coins and experience than in easy mode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solitaire</title>
-      <link>https://purpurax.de/solitaire/</link>
+      <link>http://localhost:1313/solitaire/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
-      <guid>https://purpurax.de/solitaire/</guid>
+      <guid>http://localhost:1313/solitaire/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Solitaire_1.png&#34; alt=&#34;Solitaire Card Deck&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;my-motive&#34;&gt;my motive&lt;/h1&gt;&#xA;&lt;p&gt;Solitaire is my first game made with Godot Engine and I quickly fell in love with it&amp;rsquo;s workspace. The scene editor is especially good for 2D projects and comes close to the look of Unity&amp;rsquo;s scene editor, which made it easy for me to get used to. The incredible feature of Godot is the built-in code editor with it&amp;rsquo;s own language - gdscript. This programming language is very easy to understand and to write since the documentation is well made. Overall, I had fun making this project.&lt;/p&gt;</description>
     </item>
   </channel>

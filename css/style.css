@@ -175,14 +175,17 @@ body{
 .article-content-badges {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .article-content-badge img {
+    image-rendering: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 10px;
 	width: 200px;
 	height: auto;
+    justify-content: center;
 }
 
 
