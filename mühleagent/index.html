@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <title>Purpurax</title>
+
+    
+    
+        <link rel="icon" type="image/x-icon" href="../images/logo_cat_default.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+    <body>
+        <header>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html" alt="Logo">
+                
+                    <img src="../images/logo_cat_default.png" alt="Logo">
+                
+            </a>
+            <nav class="nav-header">
+                <ul class="nav-header-items">
+                    <li class="nav-header-item"><a href = "../releases">Release</a></li>
+                    <li class="nav-header-item"><a href = "../prototypes">Prototype</a></li>
+                    <li class="nav-header-item"><a href = "../others">Other</a></li>
+                    <li class="nav-header-item"><a href = "../profile/">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="wrapper">
+        
+
+<div class="article">
+    <div class="article-content">
+        <p href="#" class="title">Mühle-Agent</p>
+        <p><img src="../images/M%C3%BChle-Agent_1.png" alt="Mühle Agent Preview"></p>
+<h1 id="description">Description</h1>
+<h2 id="what-is-mühle">What is &ldquo;Mühle&rdquo;?</h2>
+<p>&ldquo;Mühle&rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.</p>
+<ul>
+<li><strong>Setup phase:</strong> The players take turns placing down nine of their pieces on any free crossing or corner.</li>
+<li><strong>Move phase:</strong> Pieces can be moved over the marked lines, if the next crossing or corner isn&rsquo;t already occupied. Whenever three pieces are in line horizontally or vertically, a <strong>mill</strong> has been created. Now that player can remove one piece of the opponent.</li>
+<li><strong>End phase:</strong> If a player has only three pieces left, they are not restricted to moving only in single steps on the board, but can instead jump around to any free spot.</li>
+<li><strong>Win phase:</strong> The player loses, if they have just 2 pieces left.</li>
+<li><em>Extra notes: When creating two mills at the same time, only one piece can be taken. A piece normally cannot be taken out of an existing mill, but if all pieces are part of mills, this rule does not apply anymore.</em></li>
+</ul>
+<h2 id="what-can-this-software-do">What can this software do?</h2>
+<p>Inside the program, you can play Mühle in the player vs. player or the player vs. computer game mode. The games will always be saved after each step (not in browser).</p>
+<h2 id="how-does-the-software-work">How does the software work?</h2>
+<p>The Software has been written in the programming language Rust and uses the module ggez for the UI.</p>
+<ul>
+<li>
+<p><strong>UI:</strong> Through the draw function in ggez, we can simulate drag-and-drop functionality by saving a &ldquo;carry piece&rdquo; whenever the mouse button is pressed down and emptying it after release of the mouse button.</p>
+</li>
+<li>
+<p><strong>Engine:</strong> For now, the logic of the game engine is not made for performance, but instead to function properly. More on the data structure and logic is in the GitHub repo READ.ME</p>
+</li>
+<li>
+<p><strong>Computer player:</strong> The computer is made for calculating quickly and efficiently, which is being done by &hellip; (to be continued) &hellip;</p>
+</li>
+</ul>
+<a href="https://github.com/Purpurax/muehle_agent">
+<div class="article-content-badge"><img src="../images/badge_github.png" type="png"></div>
+</a>
+<!--<a href=".">
+<div class="article-content-badge"><img src="../images/badge_browser.png" type="png"></div>
+</a> -->
+
+    </div>
+</div>
+
+
+        </div>
+        <footer>
+    <div class="wrapper wrapper-footer">
+        <nav class="nav-footer">
+            <p>&copy <script>document.write(new Date().getFullYear())</script> Purpurax</p>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="../js/main.js"></script>
+
+    </body>
+</html>
