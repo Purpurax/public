@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <title>Purpurax</title>
+
+    
+    
+        <link rel="icon" type="image/x-icon" href="../images/logo_cat_default.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+    <body>
+        <header>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html" alt="Logo">
+                
+                    <img src="../images/logo_cat_default.png" alt="Logo">
+                
+            </a>
+            <nav class="nav-header">
+                <ul class="nav-header-items">
+                    <li class="nav-header-item"><a href = "../releases">Release</a></li>
+                    <li class="nav-header-item"><a href = "../prototypes">Prototype</a></li>
+                    <li class="nav-header-item"><a href = "../others">Other</a></li>
+                    <li class="nav-header-item"><a href = "../profile/">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="wrapper">
+        
+
+<div class="article">
+    <div class="article-content">
+        <p href="#" class="title">Chess-AI</p>
+        <p><img src="../images/Chess-AI_1.png" alt="Chess Game Preview"></p>
+<h1 id="chess-explained">Chess Explained</h1>
+<p>Chess is a turn-based strategy game played between two players on an 8×8 board with alternating light and dark squares. One player controls the white pieces and moves first, while the other controls the black pieces. The objective is to checkmate the opponent&rsquo;s king, meaning the king is under attack and cannot escape capture.</p>
+<h2 id="setup-phase">Setup Phase</h2>
+<p>Each player begins with 16 pieces arranged on their first two ranks:</p>
+<ul>
+<li><strong>Back rank</strong>: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook</li>
+<li><strong>Front rank</strong>: Eight pawns</li>
+</ul>
+<p>The white pieces occupy ranks 1 and 2, while black pieces occupy ranks 7 and 8. The queen starts on her own color (white queen on light square, black queen on dark square).</p>
+<h2 id="movement-phase">Movement Phase</h2>
+<p>Players alternate turns, with white always moving first. Each piece has distinct movement patterns:</p>
+<ul>
+<li><strong>Pawn</strong>: Moves forward one square, or two squares on its first move. Captures diagonally forward.</li>
+<li><strong>Rook</strong>: Moves horizontally or vertically any number of squares.</li>
+<li><strong>Bishop</strong>: Moves diagonally any number of squares.</li>
+<li><strong>Queen</strong>: Combines rook and bishop movement.</li>
+<li><strong>Knight</strong>: Moves in an L-shape (two squares in one direction, one square perpendicular).</li>
+<li><strong>King</strong>: Moves one square in any direction.</li>
+</ul>
+<p>Special moves include castling (king and rook repositioning), en passant (special pawn capture), and pawn promotion (pawn reaching the opposite end transforms into any piece except king).</p>
+<h2 id="check-and-checkmate">Check and Checkmate</h2>
+<p>When a king is under attack, it is in <strong>check</strong> and must immediately escape by moving, blocking the attack, or capturing the attacking piece. If no legal move can resolve the check, it becomes <strong>checkmate</strong> and the game ends.</p>
+<h2 id="end-phase">End Phase</h2>
+<p>The game can end in several ways:</p>
+<ul>
+<li><strong>Checkmate</strong>: One player&rsquo;s king cannot escape capture</li>
+<li><strong>Stalemate</strong>: A player has no legal moves but is not in check (results in a draw)</li>
+<li><strong>Draw</strong>: By agreement, insufficient material, threefold repetition, or the 50-move rule</li>
+</ul>
+<h2 id="win-conditions">Win Conditions</h2>
+<p>A player wins by achieving checkmate against the opponent&rsquo;s king. Unlike other board games where pieces are gradually eliminated, chess focuses on targeting the single most important piece while all others remain active throughout most of the game.</p>
+<p><em>Extra: Chess includes tactical concepts like pins, forks, skewers, and discovered attacks, where pieces work together to create threats. The game emphasizes both tactical calculation and strategic planning across opening, middlegame, and endgame phases.</em></p>
+<h1 id="description">Description</h1>
+<p>You can play against someone else locally, against my AI in 3-difficulties and even watch how two AI&rsquo;s play against each another. Good luck!</p>
+<h2 id="minimax">Minimax</h2>
+<p>The algorithm simply tries to maximize the score for itself and minimize it for the opponent. By introducing depth, the algorithm can try a couple of moves and only then evaluate the out coming score, to come to a better result. This agent is considered as the <em>hardest</em> difficulty so far and reaches a depth of 5, i.e. it looks 5 steps in the future.</p>
+<h2 id="monte-carlo">Monte Carlo</h2>
+<p>This algorithm is similar to the minimax, but it tries to reach a higher depth by exploiting good paths more and barely testing the other explored paths that have showed bad results. So in theory it could be better by having a much better lookahead compared to the depth of 5, but in practise its choices are too random. Therefore the agent is considered <em>medium</em> difficulty.</p>
+<h2 id="neural-networks">Neural Networks</h2>
+<p>Pretrained neural networks have the highest potential out of all the other algorithms as they don&rsquo;t evaluate their choice on runtime, instead this already happened in the training process. It is super difficult to train a neural network from scratch as you need to guess a good internal structure and train effectively against real players. If you use an evolutionary approach, as it is currently implemented, the networks will evaluate themselves and make many unexplainable choices. This is similar to the example in which you would try to get better at chess by playing by yourself without knowing the chess rules. Yes, you will eventually figure it out and understand the objective, but you do so by mapping it to similar experiences, e.g. tic-tac-toe teaches you that only one can win, never both. The neural network will never figure out what winning means without any good guidelines. So you either make the guidelines very clear, or you find a better appraoch.</p>
+<h2 id="datastructure">Datastructure</h2>
+<p>The most annoying thing about chess are all those extra rules: casteling, en pasant, pawn upgrade, check, checkmate, remis. The implementation tried to be efficient at storing the board and its pieces, but the complexity makes it impossible to reduce the full game into easy operations. You need to track the many different pieces, with the many rules, while checking for a checkmate after every more. <a href="https://purpurax.de/m%C3%BChleai">Mühle</a> was by far easier and there the implementation reached near perfect datastructures with almost no room for improvement.</p>
+<h1 id="download">Download</h1>
+<p>Use the browser version for simplicity. If you want to benchmark and tweak the agents, run it locally with cargo.</p>
+<div class="article-content-badges">
+    <a href="https://github.com/Purpurax/chess_ai">
+    <div class="article-content-badge"><img src="../images/badge_github.png" type="png"></div>
+    </a>
+    <a href="../games/Chess AI/chess_ai.html">
+    <div class="article-content-badge"><img src="../images/badge_browser.png" type="png"></div>
+    </a>
+</div>
+<p>© Made by Purpurax</p>
+
+    </div>
+</div>
+
+
+        </div>
+        <footer>
+    <div class="wrapper wrapper-footer">
+        <nav class="nav-footer">
+            <p>&copy <script>document.write(new Date().getFullYear())</script> Purpurax</p>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="../js/main.js"></script>
+
+    </body>
+</html>
