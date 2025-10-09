@@ -6,7 +6,17 @@
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jul 2025 21:12:29 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Sep 2025 09:36:27 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stirrer</title>
+      <link>https://purpurax.de/mixer/</link>
+      <pubDate>Tue, 16 Sep 2025 09:36:27 +0200</pubDate>
+      
+      <guid>https://purpurax.de/mixer/</guid>
+      <description>Description The device is called a magnet stirrer and is as simple as it gets: a motor is spinning a magnet, this magnet holds onto another magnet, and the other magnet is therefore spinning. The result is a stirring machine which can elegantly stear liquid inside a container.
+Mechanism The core uses permanent magnets fixed on a fast spinning motor. I&amp;rsquo;ve used an RC-car brushless 12V motor which I salvaged from an RC remote car.</description>
+    </item>
+    
     <item>
       <title>Chess-AI</title>
       <link>https://purpurax.de/chessai/</link>
