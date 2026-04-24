@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <title>Purpurax</title>
+
+    
+    
+        <link rel="icon" type="image/x-icon" href="../images/logo_cat_default.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+    <body>
+        <header>
+    <div class="wrapper">
+        <div class="header">
+            <a href="../index.html" alt="Logo">
+                
+                    <img src="../images/logo_cat_default.png" alt="Logo">
+                
+            </a>
+            <nav class="nav-header">
+                <ul class="nav-header-items">
+                    <li class="nav-header-item"><a href = "../releases">Release</a></li>
+                    <li class="nav-header-item"><a href = "../prototypes">Prototype</a></li>
+                    <li class="nav-header-item"><a href = "../others">Other</a></li>
+                    <li class="nav-header-item"><a href = "../profile/">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="wrapper">
+        
+
+<div class="article">
+    <div class="article-content">
+        <p href="#" class="title">Well-Reader</p>
+        <p><img src="../images/Well-Reader_1.png" alt="PCR Preview"></p>
+<h1 id="well-plate-reader">Well Plate Reader</h1>
+<p>A well plate is a collection of 96 open cylindric containers next to each other, each having a volume of roughly 0.3ml. A well plate reader has the ability to measure the absorption of a substance put into those 96 containers. Aside from that it can also measure fluorescent intensity.</p>
+<h2 id="white-box-view">White Box View</h2>
+<p>In the essence this device has a photometer to measure light intensity at some wavelength and a light that can emit on a precise wavelength. So an LED and a sensor. The difficulty of the well plate reader is that it should have the ability to measure multiple containers and positions at the sequentially or at the same time. Either you now use 96 lights (or an even distribution of light) combined with 96 sensors, or you move the plate in a 2D plane around to take measurements for each slot.</p>
+<h2 id="2d-movement">2D Movement</h2>
+<p>Instead of moving the both the sensor and light emitter at the same time in a 2D plane, it is much easier to move only one plate in a 2D plane. The movement is done using Nema17 motors (cheap) with working drivers. In one direction the plate is moved on a carrier using one Nema17, while this whole construction is moved using another Nema17 with a belt. The images describe the functionality much better btw.</p>
+<h1 id="source-code">Source Code</h1>
+<div class="article-content-badges">
+    <a href="https://github.com/Purpurax/well-plate-reader">
+    <div class="article-content-badge"><img src="../images/badge_github.png" type="png"></div>
+    </a>
+</div>
+
+    </div>
+</div>
+
+
+        </div>
+        <footer>
+    <div class="wrapper wrapper-footer">
+        <nav class="nav-footer">
+            <p>&copy <script>document.write(new Date().getFullYear())</script> Purpurax</p>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="../js/main.js"></script>
+
+    </body>
+</html>

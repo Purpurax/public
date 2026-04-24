@@ -6,98 +6,77 @@
     <description>Recent content in Release on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 09:36:27 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 12:29:52 +0200</lastBuildDate>
+    <atom:link href="https://purpurax.de/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Well-Reader</title>
+      <link>https://purpurax.de/wellplatereader/</link>
+      <pubDate>Wed, 15 Apr 2026 12:29:52 +0200</pubDate>
+      <guid>https://purpurax.de/wellplatereader/</guid>
+      <description>Well Plate Reader A well plate is a collection of 96 open cylindric containers next to each other, each having a volume of roughly 0.3ml. A well plate reader has the ability to measure the absorption of a substance put into those 96 containers. Aside from that it can also measure fluorescent intensity.&#xA;White Box View In the essence this device has a photometer to measure light intensity at some wavelength and a light that can emit on a precise wavelength.</description>
+    </item>
     <item>
       <title>Stirrer</title>
       <link>https://purpurax.de/mixer/</link>
       <pubDate>Tue, 16 Sep 2025 09:36:27 +0200</pubDate>
-      
       <guid>https://purpurax.de/mixer/</guid>
-      <description>Description The device is called a magnet stirrer and is as simple as it gets: a motor is spinning a magnet, this magnet holds onto another magnet, and the other magnet is therefore spinning. The result is a stirring machine which can elegantly stear liquid inside a container.
-Mechanism The core uses permanent magnets fixed on a fast spinning motor. I&amp;rsquo;ve used an RC-car brushless 12V motor which I salvaged from an RC remote car.</description>
+      <description>Description The device is called a magnet stirrer and is as simple as it gets: a motor is spinning a magnet, this magnet holds onto another magnet, and the other magnet is therefore spinning. The result is a stirring machine which can elegantly stear liquid inside a container.&#xA;Mechanism The core uses permanent magnets fixed on a fast spinning motor. I&amp;rsquo;ve used an RC-car brushless 12V motor which I salvaged from an RC remote car.</description>
     </item>
-    
     <item>
       <title>Chess-AI</title>
       <link>https://purpurax.de/chessai/</link>
       <pubDate>Tue, 15 Jul 2025 21:12:29 +0200</pubDate>
-      
       <guid>https://purpurax.de/chessai/</guid>
-      <description>Chess Explained Chess is a turn-based strategy game played between two players on an 8×8 board with alternating light and dark squares. One player controls the white pieces and moves first, while the other controls the black pieces. The objective is to checkmate the opponent&amp;rsquo;s king, meaning the king is under attack and cannot escape capture.
-Setup Phase Each player begins with 16 pieces arranged on their first two ranks:</description>
+      <description>Chess Explained Chess is a turn-based strategy game played between two players on an 8×8 board with alternating light and dark squares. One player controls the white pieces and moves first, while the other controls the black pieces. The objective is to checkmate the opponent&amp;rsquo;s king, meaning the king is under attack and cannot escape capture.&#xA;Setup Phase Each player begins with 16 pieces arranged on their first two ranks:</description>
     </item>
-    
     <item>
       <title>Decay</title>
       <link>https://purpurax.de/atrophydeparture/</link>
       <pubDate>Mon, 12 Aug 2024 17:20:34 +0200</pubDate>
-      
       <guid>https://purpurax.de/atrophydeparture/</guid>
-      <description>Motivation The project itself was made in regard to a 48-hour game jam hosted on itch.io. In a game jam your goal is to create a game within a given time frame with specified requirements and rules. Our team was just a duo, me and @Arubaato, and the rules were very open and only specified the theme being decay.
-After some brainstorming, we have decided to create a 2D pixel art platformer in the Godot open source game engine.</description>
+      <description>Motivation The project itself was made in regard to a 48-hour game jam hosted on itch.io. In a game jam your goal is to create a game within a given time frame with specified requirements and rules. Our team was just a duo, me and @Arubaato, and the rules were very open and only specified the theme being decay.&#xA;After some brainstorming, we have decided to create a 2D pixel art platformer in the Godot open source game engine.</description>
     </item>
-    
     <item>
       <title>Mühle-AI</title>
       <link>https://purpurax.de/m%C3%BChleai/</link>
       <pubDate>Sun, 28 Apr 2024 17:15:10 +0200</pubDate>
-      
       <guid>https://purpurax.de/m%C3%BChleai/</guid>
-      <description>Mühle explained &amp;ldquo;Mühle&amp;rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.
-Setup phase The players take turns placing down nine of their pieces on any free crossing or corner.
-Move phase Pieces can be moved over the marked lines, if the next crossing or corner isn&amp;rsquo;t already occupied.</description>
+      <description>Mühle explained &amp;ldquo;Mühle&amp;rdquo; is a turn-based board game in which two players face off against each other and try to eliminate the opposing pieces until only two are left. The first player receives the white pieces and can start, while the second player gets the black pieces, respectively.&#xA;Setup phase The players take turns placing down nine of their pieces on any free crossing or corner.&#xA;Move phase Pieces can be moved over the marked lines, if the next crossing or corner isn&amp;rsquo;t already occupied.</description>
     </item>
-    
     <item>
       <title>Jinx-Blaster</title>
       <link>https://purpurax.de/jinxblaster/</link>
       <pubDate>Sat, 14 Oct 2023 15:06:11 +0200</pubDate>
-      
       <guid>https://purpurax.de/jinxblaster/</guid>
-      <description>This is my replica of the Jinx blaster from the series Arcane.
-Description What was the idea? Nowadays, on the internet you can find all sorts of things, including multiple different replicas of the Jinx Blasters. But none of those Jinx Blasters were able to shoot. So I decided to put my 3D printing skills to the test and create my own.
-You have multiple options for shooting mechanisms like gel balls, airsoft and so on; but the simplest and most commonly used mechanism is the one inside nerf guns.</description>
+      <description>This is my replica of the Jinx blaster from the series Arcane.&#xA;Description What was the idea? Nowadays, on the internet you can find all sorts of things, including multiple different replicas of the Jinx Blasters. But none of those Jinx Blasters were able to shoot. So I decided to put my 3D printing skills to the test and create my own.&#xA;You have multiple options for shooting mechanisms like gel balls, airsoft and so on; but the simplest and most commonly used mechanism is the one inside nerf guns.</description>
     </item>
-    
     <item>
       <title>Virst</title>
       <link>https://purpurax.de/virst/</link>
       <pubDate>Fri, 30 Jun 2023 12:35:40 +0200</pubDate>
-      
       <guid>https://purpurax.de/virst/</guid>
-      <description>This is a 2 in 1 python script for insta-locking agents in Valorant or having an automated option for the pick/banning-phase in League of Legends.
-How does it work? Before: It check if Valorant or League of Legends is open, then start the according function in the script.
-Valorant The script is able to detect if the agent-pick-phase is active and can then click on the preselected agent.
-It recognize the pick-phase, by checking the color of one pixel (in the top-left corner of the screen).</description>
+      <description>This is a 2 in 1 python script for insta-locking agents in Valorant or having an automated option for the pick/banning-phase in League of Legends.&#xA;How does it work? Before: It check if Valorant or League of Legends is open, then start the according function in the script.&#xA;Valorant The script is able to detect if the agent-pick-phase is active and can then click on the preselected agent.&#xA;It recognize the pick-phase, by checking the color of one pixel (in the top-left corner of the screen).</description>
     </item>
-    
     <item>
       <title>CubeTimer</title>
       <link>https://purpurax.de/cubetimer/</link>
       <pubDate>Thu, 29 Jun 2023 22:55:46 +0200</pubDate>
-      
       <guid>https://purpurax.de/cubetimer/</guid>
-      <description>Description This is a Cube timer for all those hard-working cubers that want to improve their times on any Cube. It tracks and saves your times up to 13 cubes. If you are training for competitions, then these features might be helpful:
- Inspection time: It is a small countdown of x seconds, what limits the time you inspect the cube. Music: There are more than 10 music tracks you can listen to while cubing.</description>
+      <description>Description This is a Cube timer for all those hard-working cubers that want to improve their times on any Cube. It tracks and saves your times up to 13 cubes. If you are training for competitions, then these features might be helpful:&#xA;Inspection time: It is a small countdown of x seconds, what limits the time you inspect the cube. Music: There are more than 10 music tracks you can listen to while cubing.</description>
     </item>
-    
     <item>
       <title>HexagonSpin</title>
       <link>https://purpurax.de/hexagonspin/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
-      
       <guid>https://purpurax.de/hexagonspin/</guid>
       <description>Description Hexagon Spin tests your reflexes and more. Your goal is to top your high score and buy all the shop items. The game is too slow and easy? Then try the new difficulties and if you are up for a challenge, then color madness is for you. In easy mode, the puzzles come slow and vertically, so you have plenty of time to spin your hexagon to the right position.</description>
     </item>
-    
     <item>
       <title>Solitaire</title>
       <link>https://purpurax.de/solitaire/</link>
       <pubDate>Thu, 29 Jun 2023 22:33:30 +0200</pubDate>
-      
       <guid>https://purpurax.de/solitaire/</guid>
       <description>my motive Solitaire is my first game made with Godot Engine and I quickly fell in love with it&amp;rsquo;s workspace. The scene editor is especially good for 2D projects and comes close to the look of Unity&amp;rsquo;s scene editor, which made it easy for me to get used to. The incredible feature of Godot is the built-in code editor with it&amp;rsquo;s own language - gdscript. This programming language is very easy to understand and to write since the documentation is well made.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,26 +6,28 @@
     <description>Recent content in Prototype on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Sep 2023 20:55:31 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 12:29:52 +0200</lastBuildDate>
+    <atom:link href="https://purpurax.de/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCR</title>
+      <link>https://purpurax.de/pcr/</link>
+      <pubDate>Wed, 15 Apr 2026 12:29:52 +0200</pubDate>
+      <guid>https://purpurax.de/pcr/</guid>
+      <description>PCR Explained Polymerase Chain Reaction (PCR) in a nutshell is a process that is used to multiplicate DNA. You supply a container with the single piece of DNA, Polymerase (special heatstable Protein), and nucleotides (the building blocks of DNA). Through thermal regulation of the container the following phases are repeated:&#xA;Denaturation: DNA consists of two strands that hold each other through hydrogen bonds. By heating the DNA to roughly 96°C, the strands separate.</description>
+    </item>
     <item>
       <title>Smoothie</title>
       <link>https://purpurax.de/smoothie/</link>
       <pubDate>Sun, 03 Sep 2023 20:55:31 +0200</pubDate>
-      
       <guid>https://purpurax.de/smoothie/</guid>
-      <description>This is my experience trying to create smoothies myself instead of browsing recipies on the internet.
-Why did I try to create new smoothies fully from scratch? Everyone&amp;rsquo;s taste is different, therefore not all smoothies can be seen as tasty by everyone. There is no perfect combination of healthy fruits, that everyone will like, but this is not my goal. My goal is to create smoothies that I like, find tasty and can drink every day.</description>
+      <description>This is my experience trying to create smoothies myself instead of browsing recipies on the internet.&#xA;Why did I try to create new smoothies fully from scratch? Everyone&amp;rsquo;s taste is different, therefore not all smoothies can be seen as tasty by everyone. There is no perfect combination of healthy fruits, that everyone will like, but this is not my goal. My goal is to create smoothies that I like, find tasty and can drink every day.</description>
     </item>
-    
     <item>
       <title>Snappy</title>
       <link>https://purpurax.de/snappy/</link>
       <pubDate>Tue, 04 Jul 2023 13:59:50 +0200</pubDate>
-      
       <guid>https://purpurax.de/snappy/</guid>
-      <description>Description What is Snappy? Snappy was created during the Covid pandemic to make wearing a mask a more elegant solution.
-The normal approach in the pandemic was to take a mask everywhere you go and anytime someone comes close or you enter a building, you had to pop on your mask. This has two major problems: you could forget your mask at home and you need two free hands to place it over your nose.</description>
+      <description>Description What is Snappy? Snappy was created during the Covid pandemic to make wearing a mask a more elegant solution.&#xA;The normal approach in the pandemic was to take a mask everywhere you go and anytime someone comes close or you enter a building, you had to pop on your mask. This has two major problems: you could forget your mask at home and you need two free hands to place it over your nose.</description>
     </item>
-    
   </channel>
 </rss>

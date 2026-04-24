@@ -6,24 +6,21 @@
     <description>Recent content in Tags on Purpurax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 09:36:27 +0200</lastBuildDate><atom:link href="https://purpurax.de/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Release</title>
-      <link>https://purpurax.de/tags/release/</link>
-      <pubDate>Tue, 16 Sep 2025 09:36:27 +0200</pubDate>
-      
-      <guid>https://purpurax.de/tags/release/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 15 Apr 2026 12:29:52 +0200</lastBuildDate>
+    <atom:link href="https://purpurax.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prototype</title>
       <link>https://purpurax.de/tags/prototype/</link>
-      <pubDate>Sun, 03 Sep 2023 20:55:31 +0200</pubDate>
-      
+      <pubDate>Wed, 15 Apr 2026 12:29:52 +0200</pubDate>
       <guid>https://purpurax.de/tags/prototype/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Release</title>
+      <link>https://purpurax.de/tags/release/</link>
+      <pubDate>Wed, 15 Apr 2026 12:29:52 +0200</pubDate>
+      <guid>https://purpurax.de/tags/release/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
