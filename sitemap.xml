@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://purpurax.de/biomation/</loc>
+    <lastmod>2026-10-08T17:17:36+02:00</lastmod>
+  </url><url>
+    <loc>https://purpurax.de/tags/prototype/</loc>
+    <lastmod>2026-10-08T17:17:36+02:00</lastmod>
+  </url><url>
+    <loc>https://purpurax.de/</loc>
+    <lastmod>2026-10-08T17:17:36+02:00</lastmod>
+  </url><url>
+    <loc>https://purpurax.de/tags/</loc>
+    <lastmod>2026-10-08T17:17:36+02:00</lastmod>
+  </url><url>
     <loc>https://purpurax.de/pcr/</loc>
     <lastmod>2026-04-15T12:29:52+02:00</lastmod>
   </url><url>
-    <loc>https://purpurax.de/tags/prototype/</loc>
-    <lastmod>2026-04-15T12:29:52+02:00</lastmod>
-  </url><url>
-    <loc>https://purpurax.de/</loc>
-    <lastmod>2026-04-15T12:29:52+02:00</lastmod>
-  </url><url>
     <loc>https://purpurax.de/tags/release/</loc>
-    <lastmod>2026-04-15T12:29:52+02:00</lastmod>
-  </url><url>
-    <loc>https://purpurax.de/tags/</loc>
     <lastmod>2026-04-15T12:29:52+02:00</lastmod>
   </url><url>
     <loc>https://purpurax.de/wellplatereader/</loc>
